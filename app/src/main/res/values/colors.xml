@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBluePlayer">#31A2F2</color>
+    <color name="colorBrownPlayer">#A46422</color>
+    <color name="colorGreenPlayer">#44891A</color>
+    <color name="colorPinkPlayer">#FC0997</color>
+    <color name="colorPurplePlayer">#73137E</color>
+    <color name="colorYellowPlayer">#F5D82E</color>
+    <color name="colorPlayerGrey">#969696</color>
+    <color name="colorPlayerWhite">#FFFFFF</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adamk.myszki.ChoosePlayerCountActivity"
+    android:background="@drawable/map1"
+    android:id="@+id/relativeLayout_choose_player_count">
+
+
+    <ImageView
+        android:id="@+id/choose_player_count_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chooseplayerscount"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/playerCountDispaly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/choose_player_count_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:text="2"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+</RelativeLayout>
